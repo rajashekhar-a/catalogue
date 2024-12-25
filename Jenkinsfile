@@ -1,6 +1,11 @@
 @Library('roboshop') _
 
-docker(
+// docker(
+//     COMPONENT                 : 'catalogue',
+//     LABEL                     : 'WORKSTATION'
+// )
+
+nodejs(
     COMPONENT                 : 'catalogue',
     LABEL                     : 'WORKSTATION'
 )
