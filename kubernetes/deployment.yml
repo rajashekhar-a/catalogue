@@ -17,3 +17,6 @@ spec:
       containers:
         - name: catalogue
           image: 863518461004.dkr.ecr.us-east-1.amazonaws.com/catalogue:latest
+          envFrom:
+            - configMapRef:
+                name: catalogue-config
